@@ -18,6 +18,7 @@ let hasSister = true;
 console.log(hasSister);
 
 const READLINE = require("readline-sync");
-let userInput = READLINE.question("Type anything and I'll repeat it back!");
-console.log('hey');
+let y = READLINE.question("Type the year for Easter")
+console.log('y=${y}');
+
 
