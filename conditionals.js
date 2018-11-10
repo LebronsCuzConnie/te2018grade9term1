@@ -126,7 +126,7 @@ else if (guess<=5){
 	console.log("Too low!");
 }
 else{
-	console.log("Just right!")
+	console.log("Just right!");
 }
 
 
