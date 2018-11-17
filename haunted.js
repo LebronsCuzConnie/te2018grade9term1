@@ -2,7 +2,7 @@ const READLINE = require("readline-sync");
 
 let player = {
   name: undefined,
-  pronouns: undefined
+  pronouns: undefined 
 };
 
 console.log("*** WELCOME TO THE HAUNTED HOUSE ***");
