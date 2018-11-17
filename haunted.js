@@ -52,6 +52,6 @@ if(enterHouse == "y" || enterHouse == "yes") {
 else if (enterHouse == "n" || enterHouse == "no") {
   console.log(`${player.name} decides not to open the door. They hear a raspy whisper, "Come in. Save me." ${player.name} step towards the haunted house, compelled by the sound of the voice. The voice grows louder and ${player.name}'s ears begin to bleed. Slowly ${player.name}'s breath shortens until it stops. Because ${player.name} did not enter the house s/he lost all chance of survival and died. `);
 }
-console.log("Thanks for playing!")
+console.log("Thanks for playing!");
 
 
