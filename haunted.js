@@ -4,7 +4,7 @@ let player = {
   name: undefined,
 };
 
-console.log();
+console.log(); 
 console.log("*** WELCOME TO THE HAUNTED HOUSE ***");
 player.name = READLINE.question("What is your name?: ");
 console.log(`${player.name} stands in front of a spooky haunted house. `);
