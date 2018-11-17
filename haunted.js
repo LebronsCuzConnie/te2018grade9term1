@@ -23,17 +23,17 @@ if(enterHouse == "y" || enterHouse == "yes") {
   					console.log(`The knife slips from ${player.name} hands, levitates, and stabs ${player.name} in the throat. Unfortunatley, ${player.name} has died. `)
   				}
   				else if(appearingThings == "d" || "drink"){
-  					console.log(`${player.name} blacks out and wakes up in their bed. ${player.name}'s mother comes in to wake ${player.name} up. Little does ${player.name} know, s/he still looks like the ghost girl and the ghost girl still looks like her/him! ${player.name}'s mother's  eyes widen. When she looks at ${player.name} she sees the ghost girl! She grabs a dagger from her pocket and stabs ${player.name}! What a shame, ${player.name} has been killed by their own mother... `);
+  					console.log(`${player.name} blacks out and wakes up in his/her bed. ${player.name}'s mother comes in to wake ${player.name} up. Little does ${player.name} know, s/he still looks like the ghost girl and the ghost girl still looks like her/him! ${player.name}'s mother's  eyes widen. When she looks at ${player.name} she sees the ghost girl! She grabs a dagger from her pocket and stabs ${player.name}! What a shame, ${player.name} has been killed by his/her own mother... `);
   				}
   			}
   			else if(ghostGirl == "r" || "run from"){
-  				console.log(`A pain spreads through ${player.name}'s chest. As ${player.name}'s' vision becomes increasingly fuzzy, s/he sees the ghost girl with a finger over her mouth. ${player.name} contemplates whether to speak or close their eyes and accept defeat. `);
-  				let fingerGhostGirl = READLINE.question(`Does ${player.name} try to speak or do they close their eyes? (close eyes or speak) `);
+  				console.log(`A pain spreads through ${player.name}'s chest. As ${player.name}'s' vision becomes increasingly fuzzy, s/he sees the ghost girl with a finger over her mouth. ${player.name} contemplates whether to speak or close his/her eyes and accept defeat. `);
+  				let fingerGhostGirl = READLINE.question(`Does ${player.name} try to speak or do they close his/her eyes? (close eyes or speak) `);
   				if(fingerGhostGirl == "s" || fingerGhostGirl == "speak"){
-  					console.log(`${player.name} opens their mouth and blood clots spurt from it. Sadly, ${player.name} bleeds out and dies. `);
+  					console.log(`${player.name} opens his/her mouth and blood clots spurt from it. Sadly, ${player.name} bleeds out and dies. `);
   				}
   				else if(fingerGhostGirl == "c" || fingerGhostGirl == "close eyes"){
-  					console.log(`${player.name} closes their eyes. They wake up and realize it was all a dream. Congratulations ${player.name}! `);
+  					console.log(`${player.name} closes his/her eyes. They wake up and realize it was all a dream. Congratulations ${player.name}! `);
   				}	
   			}	
   	}
@@ -44,7 +44,7 @@ if(enterHouse == "y" || enterHouse == "yes") {
   			console.log(`${player.name} steps through the door and falls into an endless void. To say it simply, ${player.name} dies. ` );
   		}
   		else if(doorSwitch == "f" || "flip switch"){
-  			console.log(`As ${player.name} reaches out to flip the switch they feel a buzzing sensation and their body jolts. Their muscles contract and they fall to the ground stiff. Slowly they lose consciousness and never regain it. ${player.name} is dead. `);
+  			console.log(`As ${player.name} reaches out to flip the switch they feel a buzzing sensation and his/her body jolts. His/her muscles contract and they fall to the ground stiff. Slowly they lose consciousness and never regain it. ${player.name} is dead. `);
   		}
   	}
 
