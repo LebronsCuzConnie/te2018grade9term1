@@ -24,7 +24,7 @@ if(enterHouse == "y" || enterHouse == "yes") {
   					console.log(`The knife slips from ${player.name} hands, levitates, and stabs ${player.name} in the throat. Unfortunatley, ${player.name} has died. `);
   				}
   				else if(appearingThings == "d" || appearingThings == "drink"){
-  					console.log(`${player.name} blacks out and wakes up in ${player.pronouns} bed. ${player.name}'s mother comes in to wake ${player.name} up. Little does ${player.name} know, ${player.pronouns} still looks like the ghost girl and the ghost girl still looks like ${player.pronouns}! ${player.name}'s mother's  eyes widen. When she looks at ${player.name} she sees the ghost girl! She grabs a dagger from her pocket and stabs ${player.name}! What a shame, ${player.name} has been killed by ${player.pronouns} own mother... `);
+  					console.log(`${player.name} drinks the red substance, blacks out and wakes up in ${player.pronouns} bed. ${player.name}'s mother comes in to wake ${player.name} up. Little does ${player.name} know, ${player.pronouns} still looks like the ghost girl and the ghost girl still looks like ${player.pronouns}! ${player.name}'s mother's  eyes widen. When she looks at ${player.name} she sees the ghost girl! She grabs a dagger from her pocket and stabs ${player.name}! What a shame, ${player.name} has been killed by ${player.pronouns} own mother... `);
   				}
   				else{
   					console.log(`${player.name} decide to do ${player.pronouns} own thing and immediatly a bright light hits ${player.pronouns}. ${player.name} is blinded and faints. The floor becomes lined with spikes and as ${player.pronouns} hit the ground...well, ${player.pronouns} died. `);
