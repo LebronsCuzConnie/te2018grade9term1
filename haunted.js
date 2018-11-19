@@ -18,7 +18,7 @@ if(enterHouse == "y" || enterHouse == "yes") {
   		console.log(`${player.name} decides to enter the tunnel whose entrance is covered in blood. A little ghost girl motions for ${player.name} to follow. `);
   		let ghostGirl = READLINE.question(`Does ${player.name} follow the ghost girl or run from her? (follow or run from) `);
   			if(ghostGirl == "f" || ghostGirl == "follow"){
-  				console.log(`She smiles revealing black gums. Her bones crack and she morphs into a carbon copy of ${player.name}! She points a bony finger at ${player.name} and ${player.name} feel a sharp pain spread through ${player.pronouns} body. ${player.name} looks down and realizes that ${player.pronouns} ha(s)(ve) become the ghost. She disappears and ${player.name} is left alone. A knife and a glass filled with a red substance appears. `);
+  				console.log(`As ${player.name} follows the ghost girl she turns back and smiles revealing black gums. Her bones crack and she morphs into a carbon copy of ${player.name}! She points a bony finger at ${player.name} and ${player.name} feel a sharp pain spread through ${player.pronouns} body. ${player.name} looks down and realizes that ${player.pronouns} ha(s)(ve) become the ghost. She disappears and ${player.name} is left alone. A knife and a glass filled with a red substance appears. `);
   				let appearingThings = READLINE.question(`Does ${player.name} pick up the knife or drink the red liquid? (knife or drink) `);
   				if(appearingThings == "k" || appearingThings == "knife"){
   					console.log(`The knife slips from ${player.name} hands, levitates, and stabs ${player.name} in the throat. Unfortunatley, ${player.name} has died. `);
@@ -31,7 +31,7 @@ if(enterHouse == "y" || enterHouse == "yes") {
   				}
   			}
   			else if(ghostGirl == "r" || ghostGirl == "run from"){
-  				console.log(`A pain spreads through ${player.name}'s chest. As ${player.name}'s' vision becomes increasingly fuzzy, ${player.pronouns} see(s) the ghost girl with a finger over her mouth. ${player.name} contemplates whether to speak or close ${player.pronouns} eyes and accept defeat. `);
+  				console.log(`As ${player.name} attempts to run a pain spreads through ${player.pronouns} chest. As ${player.name}'s' vision becomes increasingly fuzzy, ${player.pronouns} see(s) the ghost girl with a finger over her mouth. ${player.name} contemplates whether to speak or close ${player.pronouns} eyes and accept defeat. `);
   				let fingerGhostGirl = READLINE.question(`Does ${player.name} try to speak or do/does ${player.pronouns} close ${player.pronouns} eyes? (close eyes or speak) `);
   				if(fingerGhostGirl == "s" || fingerGhostGirl == "speak"){
   					console.log(`${player.name} opens ${player.name} mouth and blood clots spurt from it. Sadly, ${player.name} bleeds out and dies. `);
